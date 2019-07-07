@@ -1,5 +1,5 @@
 
-FROM maven:3.6.1-jdk-13
+FROM maven:3.6.1-jdk-8
 
 LABEL "com.github.actions.name"="action-maven-deploy"
 LABEL "com.github.actions.description"="A github action for building and deploying maven project"
