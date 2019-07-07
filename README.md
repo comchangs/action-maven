@@ -9,7 +9,7 @@ workflow "build test" {
 }
 
 action "comchangs/action-maven" {
-  uses = "comchangs/action-maven@latest"
+  uses = "comchangs/action-maven@master"
   args = "clean compile test"
 }
 
