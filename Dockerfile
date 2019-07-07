@@ -10,7 +10,6 @@ LABEL "name"="action-maven-deploy"
 LABEL "repository"="https://github.com/comchangs/action-maven-deploy"
 LABEL "homepage"="https://murry.jeong.work/action-maven-deploy"
 LABEL "maintainer"="Murry Jeong <comchangs@gmail.com>"
-LABEL "version"="1.0.0"
 
 COPY entrypoint.sh /entrypoint.sh
 
